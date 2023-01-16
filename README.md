@@ -13,10 +13,14 @@ I have trained various models which are able to classify each sentence of the ab
 
 | Models | Accuracy | Precision | Recall | F1 |
 | ---- | ---- | ---- | ---- | ----|
-| Baseline | 0.772 | 0.841 |  |  |
-| char_word_positional_embedding | 0.863 | 0.825 |  |  |
-| char_pretrained_word_positional_embedding | 1.031 | 0.799 |  |  |
-| Conv1D_token_embed | 1.091 | 0.706 |  |  |
-| char_pretrained_word_embedding | 1.196 | 0.681 |  |  |
+| Baseline | 72.183 | 0.718 | 0.721 | 0.698 |
+| (character + word + positional) embedding | 86.478 | 0.868 | 0.864 | 0.861 |
+| (character + pretrained_word + positional) embedding | 86.253 | 0.862 | 0.862 | 0.860 |
+| word embedding | 82.516 | 0.824 | 0.825 | 0.823 |
+| (character + pretrained_word) embedding | 80.031 | 0.800 | 0.800 | 0.796 |
 
-<i>Table comparing accuracy and loss of different models on the test dataset</i></div>
+<i>Table comparing accuracy, precision, recall and f1-score of different models</i></div>
+
+You can view the training results of the models on [Tensorboard](https://tensorboard.dev/experiment/SEn1rZGlSvKtVwjlZIexlQ/#scalars).
+
+You can access all the trained models [here](https://drive.google.com/drive/folders/11sl9w5jjg2pgrSyiuK6HdWnn9UXqVbcV?usp=share_link).
