@@ -7,7 +7,7 @@ The goal of the paper was to explore the ability for NLP models to classify sent
 I have trained various models which are able to classify each sentence of the abstract of a RCT research paper, to one of the particular classes **BACKGROUND, CONCLUSIONS, METHODS, OBJECTIVE, RESULTS**.
 
 ![Skimlit example inputs and outputs](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/09-skimlit-overview-input-and-output.png)
-[<div align="center">*image source*</div>](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/09-skimlit-overview-input-and-output.png)
+<div align="center">[*image source*](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/09-skimlit-overview-input-and-output.png)</div>
 
 <div align="center">
 
