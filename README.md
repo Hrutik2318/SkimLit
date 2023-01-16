@@ -19,7 +19,7 @@ I have trained various models which are able to classify each sentence of the ab
 | word embedding | 82.516 | 0.824 | 0.825 | 0.823 |
 | (character + pretrained_word) embedding | 80.031 | 0.800 | 0.800 | 0.796 |
 
-<i>Table comparing accuracy, precision, recall and f1-score of different models</i></div>
+<i>Table comparing accuracy, precision, recall, and f1-score of different models</i></div>
 
 You can view the training results of the models on [Tensorboard](https://tensorboard.dev/experiment/SEn1rZGlSvKtVwjlZIexlQ/#scalars).
 
